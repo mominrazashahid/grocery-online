@@ -18,9 +18,11 @@ pipeline {
         stage('Deploy') {
             steps {
                 // sh 'docker version'
-                echo 'Deploying using docker...'
+                echo 'Deploying...'
                 // your deploy commands here
             }
         }
     }
 }
+
+
