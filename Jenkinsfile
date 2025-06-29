@@ -18,7 +18,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // sh 'docker version'
-                echo 'Deploying code...'
+                echo 'Deploying...'
                 // your deploy commands here
             }
         }
